@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<!-- Created By -->
+<html>
+<head>
+    <meta charset="utf-8">
+  <!---<title>MENU/title>--->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand d-lg-none" href="#">Lucke</a>
+ 
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Acceuil</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Evenement</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contatct</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Recherche</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav sm-icons">
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-facebook-f"></i></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-instagram"></i></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-twitter"></i></a></li>
+        <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-pinterest-p"></i></a></li>
+    </ul>
+  </div>
+</nav>
+
+</body>
+<style>
+
+
+
+
+
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  margin: 0px; 
+font-family: montserrat;
+}
+
+
+
+
+
+
+.logo {
+    
+text-align: left ;
+    
+font-size: 22px;
+    
+padding-left: 20px;
+    
+line-height: 50px;
+  
+}
+
+
+
+
+nav{
+  
+  height: 80px;
+  
+
+
+  display: flex;
+  
+ 
+  background: green;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 100px;
+
+ 
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a.active,a:hover{
+  background: ;
+  transition: .5s;
+color: yellow;
+
+
+}
+.checkbtn{
+  font-size: 30px;
+  color: green;
+  floaline-height: 80px;
+  margin-right: 40p;
+ 
+
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+
+
+
+
+
+
+@media (max-width: 858px){
+  .checkbtn{
+    display: flex;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: flex;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+
+section{
+  background: url(bg1.jpg) no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+}
+
+</style>
+
+
+</htlm>

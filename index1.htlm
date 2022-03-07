@@ -1,0 +1,325 @@
+
+
+<!DOCTYPE html>
+
+
+<html>
+
+
+<head>
+
+
+
+	<title>Bienvenue sur le site Dev Projet</title>
+
+
+
+	<meta charset="utf-8" />
+
+
+
+	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
+
+
+
+</head>
+
+<body>
+
+
+	<nav>
+
+                <a href="file:///C:/Users/Ermis%20Tech/Desktop/site%20web/tableau%20site%20de%20vente%20en%20ligne%20liens%20clik%20acceuil.htlm" class="nav-item">Accueil</a>
+
+		
+                <a " class="nav-item active">Evenements</a>                
+              
+		
+                <a href="file:///C:/Users/Ermis%20Tech/Desktop/site%20web/tableau%20site%20de%20vente%20en%20ligne%20liens%20clik%20commande.htlm" class="nav-item">Contact</a>
+
+                
+		<a href="https://google.fr" target="_blank" class="nav-item">Recerche</a>
+
+	</nav>
+
+
+	<main>
+
+
+		<div class="wrapper">
+
+
+			<h1>
+
+
+				Bienvenue sur le site Dev Projet; (Association)
+
+			</h1>
+
+
+			<p>
+
+
+				Suite au nombreux attribut appris sur le site de formation de devellopeur web. J ai recreer un exercice en modifiant: 
+                                les textes,donnée et contenu de l'exercice en gardant principalement les balises pour creer des tableau et entete de l exercice pour m entrain? sur ce type de representation de site
+
+
+			</p>
+
+
+			<a href="#fav-items">Consulter nos articles</a> <!-- Nouvelle balise lien cliquable dans les favories pour acceder directement a la page des favories: voir lien hyper texte-->
+
+
+
+
+                        <p>
+
+                                   Dans l'exercice donné il est demandé de créer un site un site pour une association avec des liens pour accéder aux evenements. 
+                                   Pour cela je vais utliser les meme attributs de balises qui sont dans l exemple afin de créer un tableau ci dessous.
+
+			</p>
+
+
+			<div>
+
+				<h2>
+
+
+					Evenements
+
+				</h2>
+
+
+				<div id="fav-items"> <!-- balise rajouter dans articles favorie pour acceder directement au favorie indique au dessous: voir lien hyper texte -->
+
+
+					<img src="https://fakeimg.pl/250x100/">
+
+
+                    <img src="https://fakeimg.pl/250x100/">
+
+
+                    <img src="https://fakeimg.pl/250x100/">
+
+
+                    <img src="https://fakeimg.pl/250x100/">
+
+
+                    <img src="https://fakeimg.pl/250x100/">
+
+
+                    <img src="https://fakeimg.pl/250x100/">
+
+
+                    <img src="https://fakeimg.pl/250x100/">
+
+
+                    <img src="https://fakeimg.pl/250x100/">
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </main>
+
+
+    <footer>
+
+
+        <p>Vous pouvez joindre le service client :</p>
+
+
+        <a href="tel:+623789015">06 23 78 90 15</a>
+
+
+        <a href="mailto:emris@outlook.fr">Envoyer un courriel</a>
+
+
+
+    </footer>
+
+
+  </body>
+
+
+  <style>
+
+
+    body {
+
+        
+       
+        font-family: lato;
+
+
+        margin: 0;
+
+
+    }
+
+
+    nav {
+
+       
+        margin-bottom: 2rem;
+
+
+    }
+
+
+    footer {
+
+
+        margin-top: 2rem;
+
+
+        padding-top: 2rem;
+
+
+        padding-bottom: 2rem;
+
+
+        flex-direction: column;
+
+
+        align-items: center;
+
+
+    }
+
+
+    nav, footer {
+
+
+
+        display: flex;
+
+
+
+        justify-content: space-around;
+
+
+
+        height: 100px;
+
+
+
+        -webkit-box-shadow: 0px 0px 40px 0px rgba(14,13,13);
+
+
+
+        -moz-box-shadow: 0px 0px 40px 0px rgba(14,13,13);
+
+
+
+        box-shadow: 0px 0px 40px 0px rgba(14,13,13);
+
+
+
+    }
+
+
+
+    main {
+
+
+        
+        
+        display: flex;
+
+
+
+        flex-direction: column;
+
+
+
+        align-items: center;
+
+
+
+    }
+
+
+
+    h1, h2 {
+
+
+
+        text-align: center;
+
+
+
+    }
+
+
+
+    .wrapper {
+
+       
+
+        display: flex;
+
+
+
+        flex-direction: column;
+
+
+
+        width: 70%;
+
+
+
+    }
+
+
+
+    .nav-item {
+
+        color: black;
+
+        
+        display: flex;
+
+
+        flex-direction: column;
+
+
+
+        justify-content: center;
+
+
+    }
+
+
+
+    .active {
+
+
+
+        color: red;
+
+
+
+        font-weight: bolder;
+
+
+
+        text-decoration: unset;
+
+
+
+    }
+
+
+
+  </style>
+
+
+
+</html>

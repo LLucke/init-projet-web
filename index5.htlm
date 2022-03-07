@@ -1,0 +1,336 @@
+	<!DOCTYPE html>
+
+
+
+	<html>
+
+
+
+
+
+	<head>
+
+
+
+		<title>Site vitrine</title>
+
+
+
+		<meta charset="utf-8" />
+
+
+
+		<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet" />
+
+
+
+	</head>
+
+
+<body>
+
+<nav>
+
+
+<ul id="#nav">
+<li><a href="#Menu">menu</a>
+<ul>
+<li><a href="#Acceuil">Acceuil</a></li>
+<li><a href="#Evenemenets">evenements</a></li>
+<li><a href="#contact">Contact</a></li>
+<li><a href="#A propos">A propos</a></li>
+</ul>
+  </li>
+</ul>
+</nav>
+<main>
+<div class="wrapper">
+
+
+
+				<h2>
+
+
+
+					Evenements
+
+
+
+				</h2>
+
+
+
+				<div id="fav-items">
+
+
+
+	  <img src="file:///D:/dev/evalu%20front%20end/evalu%20stie%20web%20en%20ligne/Site%20vitrine%202/Alo%C3%A9%20vera%202.htlm/">
+
+
+
+          <img src="file:///D:/dev/evalu%20front%20end/evalu%20stie%20web%20en%20ligne/Site%20vitrine%202/Alo%C3%A9%20vera%202.htlm/">
+
+
+
+
+          <img src="https://fakeimg.pl/250x100/">
+
+
+
+          <img src="https://fakeimg.pl/250x100/">
+
+
+
+          <img src="https://fakeimg.pl/250x100/">
+
+
+
+          <img src="https://fakeimg.pl/250x100/">
+
+
+
+          <img src="https://fakeimg.pl/250x100/">
+
+
+
+          <img src="https://fakeimg.pl/250x100/">
+
+
+
+          <img src="https://fakeimg.pl/250x100/">
+
+
+
+          <img src="https://fakeimg.pl/250x100/">
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+    </main>
+
+
+
+    <footer>
+
+
+
+      <p>
+
+
+
+        Vous pouvez joindre le service client :
+
+
+
+      </p>
+
+
+
+      <a href="tel:+600000000">06 00 00 00 00</a>
+
+
+
+      <a href="mailto:service-client@example.com">Envoyer un courriel</a>
+
+
+
+    </footer>
+
+
+
+  </body>
+
+
+
+  <style>
+
+
+    body {
+
+
+
+        font-family: lato;
+
+
+
+        margin: 0;
+
+
+
+    }
+    footer {
+
+
+
+        margin-top: 2rem;
+
+
+
+        padding-bottom: 2rem;
+
+
+
+        padding-top: 2rem;
+
+
+
+        flex-direction: column;
+
+
+
+        align-items: center;
+
+ }
+    footer {
+
+
+
+        display: flex;
+
+
+
+        height: 100px;
+
+
+
+        -webkit-box-shadow: 0px 0px 40px 0px rgba(186,186,186,1);
+
+
+
+        -moz-box-shadow: 0px 0px 40px 0px rgba(186,186,186,1);
+
+
+
+        box-shadow: 0px 0px 40px 0px rgba(186,186,186,1);
+
+
+
+
+    }
+
+main {
+
+
+
+        display: flex;
+
+
+
+        flex-direction: column;
+
+
+
+        align-items: center;
+
+
+
+    }
+main {
+
+
+
+        display: flex;
+
+
+
+        flex-direction: column;
+
+
+
+        align-items: center;
+
+
+
+    }
+.wrapper {
+
+
+
+        display: flex;
+
+
+
+        flex-direction: column;
+
+
+
+        width: 70%;
+
+
+
+    }
+.active {
+
+
+
+        color: #ed7114;
+
+
+
+        font-weight: bolder;
+
+
+
+        text-decoration: unset;
+ }
+#nav{
+  padding:0;
+  margin:0;
+  list-style:none;
+  text-align: center;
+  width: 200px;
+}
+#nav ul {
+  padding:0;
+  margin:0;
+  list-style:none
+  text-align: center;
+}
+#nav li li{
+   max-height:0;
+   overflow: hidden;
+   transition: all .5s;
+   border-radius:0;
+   background: #444;
+   box-shadow: none;
+   border:none;
+   margin:0
+}
+#nav a {
+  display:block;
+  text-decoration: none;
+  color: #fff;
+  padding: 8px 0;
+  font-family: verdana;
+  font-size:1.2em
+}
+#nav ul li a, #nav li:hover li a {
+  font-size:1em
+}
+#nav li:hover {
+   background: #729EBF
+}
+#nav li li:hover {
+   background: #999;
+}
+#nav ul li:last-child {
+   border-radius: 0 0 6px 6px;
+   border:none;
+}
+#nav li:hover li {
+  max-height: 15em;
+
+
+</style>
+
+
+
+</body>
+</html>
